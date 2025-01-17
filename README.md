@@ -9,9 +9,9 @@ This script automates the essential maintenance tasks of a Debian-based Linux sy
   - `/usr/bin/apt upgrade`
   - `/usr/bin/apt autoremove`
 - **Core Maintenance Operations**:
-  1. Updates package lists.
-  2. Upgrades installed packages.
-  3. Removes unused packages.
+  - Updates package lists.
+  - Upgrades installed packages.
+  - Removes unused packages.
 
 ## Prerequisites
 - The script must be run with `sudo` privileges to modify the sudoers file.
