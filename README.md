@@ -45,17 +45,6 @@ This script automates the essential maintenance tasks of a Debian-based Linux sy
      - `apt upgrade`: Upgrades installed packages to their latest versions.
      - `apt autoremove`: Removes unused dependencies and packages.
 
-## Example Output
-```plaintext
-Starting system update, upgrade, and cleanup process...
-Adding current user to sudoers for apt operations...
-Sudoers entry added successfully.
-Running apt update...
-Running apt upgrade...
-Running apt autoremove...
-System maintenance completed successfully!
-```
-
 ## Notes
 - Ensure you have `sudo` privileges before running the script.
 - Review the sudoers file modification logic to ensure compliance with your system policies.
